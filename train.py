@@ -6,6 +6,7 @@ cols_to_drop = ['Onboard_date', 'Location', 'Company','Total_Purchase']
 df = dataset.drop(columns=cols_to_drop)
 
 
+
 # Entrainer un modele de regression logistique avec  Skearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score

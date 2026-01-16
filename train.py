@@ -1,5 +1,6 @@
 import pandas as pd
 import joblib
+
 dataset=pd.read_csv('data/train_data.csv')
 cols_to_drop = ['Onboard_date', 'Location', 'Company','Total_Purchase']
 df = dataset.drop(columns=cols_to_drop)
